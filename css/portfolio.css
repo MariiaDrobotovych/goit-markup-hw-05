@@ -97,6 +97,8 @@ nav {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -140,12 +142,16 @@ nav {
 
 .address-list-top svg {
   margin-right: 10px;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-top .link {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-top .link:hover,
@@ -165,9 +171,12 @@ nav {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo:hover {
+.logo:hover,
+.logo:focus {
   color: var(--text-accent);
 }
 
@@ -203,6 +212,8 @@ main {
 
   padding: 6px 22px;
   cursor: pointer;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button:hover,
@@ -246,6 +257,8 @@ button:focus {
 
 .projects-item {
   margin-bottom: 30px;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-item:nth-last-child(-n + 3) {
@@ -339,6 +352,8 @@ footer .address {
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sl-footer a:hover,
